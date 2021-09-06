@@ -1,0 +1,35 @@
+
+.up {
+    position: relative;
+    top: -45%;
+    left:120%;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-bottom: 15px solid #0a0a0a;
+}
+
+.down {
+    position: relative;
+    top: -35%;
+    left:120%;
+    width: 0;
+    height: 0;
+    border-left: 10px solid transparent;
+    border-right: 10px solid transparent;
+    border-top: 15px solid #0a0a0a;
+}
+
+.cursor {
+    cursor: pointer;
+}
+
+.hover {
+    transition: linear 0.2s;
+}
+
+
+.hover:hover {
+    background-color: #e8e8e8;
+}
